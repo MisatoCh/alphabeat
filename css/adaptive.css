@@ -188,11 +188,20 @@
     }
 
     .blog__title {
-      font-size: 10px;
+      font-size: 24px;
+    }
+
+    .mouse-parallax-bg {
+      width: 150%;
+      height: 150%;
     }
     
     .blog__subtitle {
-      font-size: 12px;
+      font-size: 14px;
+    }
+
+    .blog__info {
+      font-size: 11px;
     }
 
     .info__boxes {
@@ -218,19 +227,19 @@
     }
 
     .info__box__title {
-      font-size: 16px;
+      font-size: 15px;
     }
 
     .info__box__text {
-      font-size: 10px;
+      font-size: 14px;
     }
 
     .connect__buttons img {
-      width: 12px;
+      width: 24px;
     }
 
     .button__item {
-      font-size: 10px;
+      font-size: 18px;
     }
 
     .rules__content {
