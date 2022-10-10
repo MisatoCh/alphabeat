@@ -1,3 +1,39 @@
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #5e5e5e;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .2) inset;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #939393;
+    border-radius: 8px;
+    border: 3px solid #5e5e5e;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #939393;
+}
+
+.is_scrolled .header{
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(6px);
+    transition: 1s;
+}
+
+.is_scrolled .header::after {
+    background-color: #5e5e5e00;
+    transition: 1s;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .mouse-parallax {
     height: 1000px;
     position: relative;
