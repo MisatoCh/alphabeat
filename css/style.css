@@ -42,6 +42,8 @@ p {
 .wrapper {
     min-height: 100vh;
     display: flex;
+    margin: auto;
+    height: 0px;
     flex-direction: column;
 }
 
@@ -160,12 +162,14 @@ p {
 }
 
 .nav__selected {
-    font-weight: 700;
-    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+
     color: #fff;
-    margin-left: 25px;
     text-decoration: none;
     opacity: 1;
+
+    transition: opacity .1s linear;
+    transition: scale .3s linear;
 }
 
 .nav__link:first-child {
