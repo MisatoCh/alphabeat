@@ -17,8 +17,7 @@ function scrollTo(element) {
   window.onscroll = function() { 
     let has_class = document.body.classList.contains("is_scrolled");
  
-    if (minOffset < document.documentElement.scrollTop ) 
-  {
+    if (minOffset < document.documentElement.scrollTop ) {
       if (!has_class) {
           document.body.classList.add("is_scrolled");
       } 
@@ -28,7 +27,7 @@ function scrollTo(element) {
     } 
   }
   
-  let bg = document.querySelector('.mouse-parallax-bg');
+  let bg = document.querySelector('.mouse-parallax-bg-other');
   window.addEventListener('mousemove', function(e) {
       let x = e.clientX / window.innerWidth;
       let y = e.clientY / window.innerHeight;  
