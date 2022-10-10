@@ -131,16 +131,16 @@
 
     .info__box {
       margin: 50px auto;
-      width: 450px;
+      width: 300px;
       height: auto;
     }
 
     .info__box__ico img{
-      width: 100px;
+      width: 90px;
     }
 
     .info__box__title {
-      font-size: 20px;
+      font-size: 15px;
     }
 
     .info__box__text {
@@ -149,7 +149,7 @@
 
     .rules__content {
       max-width: 500px;
-      font-size: 16px;
+      font-size: 14px;
     }
 
     .rules__content h1{
