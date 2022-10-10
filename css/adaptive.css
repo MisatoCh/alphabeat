@@ -5,12 +5,12 @@
       font-size: 36px;
     }
 
-    .blog__info {
-      font-size: 17px;
+    .blog__subtitle {
+      font-size: 20px;
     }
 
-    .info__boxes {
-      margin: 0 100px;
+    .blog__info {
+      font-size: 16px;
     }
 
     .info__box__ico img{
@@ -24,17 +24,9 @@
     .info__box__text {
       font-size: 14px;
     }
-
-    .rules__content {
-      max-width: 500px;
-    }
-
-    .rules__content h1{
-      font-size: 22px;
-    }
   }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1200px) {
     /* */
     .header__inner {
       justify-content: space-around;
@@ -51,11 +43,11 @@
     }
 
     .blog__subtitle {
-      font-size: 18px;
+      font-size: 15px;
     }
 
     .blog__info {
-      font-size: 16px;
+      font-size: 14px;
     }
     
     .info__boxes {
