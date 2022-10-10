@@ -1,65 +1,64 @@
 @media only screen and (max-width: 1600px) {
   /* */
+  .header__inner {
+    justify-content: space-around;
+  }
+  .burger__menu {
+    display: block;
+  }
+  .nav {
+    display: none;
+  }
 
   .blog__title {
-    font-size: 27px;
+    font-size: 26px;
+  }
+
+  .blog__subtitle {
+    font-size: 18px;
+  }
+
+  .blog__info {
+    font-size: 16px;
   }
   
-  .blog__subtitle {
-    font-size: 20px;
+  .info__boxes {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+
+  .info__box {
+    margin: 50px auto;
+    width: 450px;
+    height: auto;
   }
 
   .info__box__ico img{
-    width: 70px;
-  }
-
-  .info__boxes {
-    margin: 0 120px;
+    width: 100px;
   }
 
   .info__box__title {
-    font-size: 11px;
+    font-size: 20px;
   }
 
   .info__box__text {
-    font-size: 10px;
+    font-size: 16px;
+  }
+
+  .rules__theme, .rules__category {
+    display: none;
   }
 
   .rules__content {
     max-width: 700px;
   }
-}
-@media only screen and (max-width: 1200px) {
-    /* */
 
-    .blog__title {
-      font-size: 27px;
-    }
-
-    .info__boxes {
-      margin: 0 100px;
-    }
-
-    .info__box__ico img{
-      width: 70px;
-    }
-
-    .info__box__title {
-      font-size: 11px;
-    }
-
-    .info__box__text {
-      font-size: 10px;
-    }
-
-    .rules__content {
-      max-width: 500px;
-    }
-
-    .rules__content h1{
-      font-size: 22px;
-    }
+  .rules__content h1{
+    font-size: 18px;
   }
+}
 
 @media only screen and (max-width: 992px) {
     /* */
@@ -74,7 +73,15 @@
     }
 
     .blog__title {
-      font-size: 22px;
+      font-size: 26px;
+    }
+
+    .blog__subtitle {
+      font-size: 18px;
+    }
+
+    .blog__info {
+      font-size: 16px;
     }
     
     .info__boxes {
@@ -86,7 +93,7 @@
 
     .info__box {
       margin: 50px auto;
-      width: 700px;
+      width: 450px;
       height: auto;
     }
 
@@ -138,7 +145,7 @@
     }
 
     .blog__info {
-      font-size: 16px;
+      font-size: 15px;
     }
 
     .info__boxes {
@@ -150,7 +157,7 @@
 
     .info__box {
       margin: 50px auto;
-      width: 600px;
+      width: 450px;
       height: auto;
     }
 
