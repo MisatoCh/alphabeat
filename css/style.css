@@ -52,7 +52,6 @@ p {
 }
 .mouse-parallax-bg {
     position: absolute;
-    background-image: url("img/background2.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
