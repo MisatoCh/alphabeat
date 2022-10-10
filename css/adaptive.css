@@ -2,11 +2,11 @@
     /* */
 
     .blog__title {
-      font-size: 32px;
+      font-size: 36px;
     }
 
     .blog__info {
-      font-size: 16px;
+      font-size: 17px;
     }
 
     .info__boxes {
@@ -14,15 +14,15 @@
     }
 
     .info__box__ico img{
-      width: 100px;
+      width: 90px;
     }
 
     .info__box__title {
-      font-size: 20px;
+      font-size: 15px;
     }
 
     .info__box__text {
-      font-size: 16px;
+      font-size: 14px;
     }
 
     .rules__content {
@@ -131,16 +131,16 @@
 
     .info__box {
       margin: 50px auto;
-      width: 300px;
+      width: 450px;
       height: auto;
     }
 
     .info__box__ico img{
-      width: 90px;
+      width: 100px;
     }
 
     .info__box__title {
-      font-size: 15px;
+      font-size: 20px;
     }
 
     .info__box__text {
@@ -149,7 +149,7 @@
 
     .rules__content {
       max-width: 500px;
-      font-size: 14px;
+      font-size: 16px;
     }
 
     .rules__content h1{
