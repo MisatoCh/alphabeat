@@ -130,10 +130,14 @@
     }
 
     .blog__title {
-      font-size: 16px;
+      font-size: 26px;
     }
     
     .blog__subtitle {
+      font-size: 18px;
+    }
+
+    .blog__info {
       font-size: 16px;
     }
 
@@ -197,7 +201,7 @@
     }
     
     .blog__subtitle {
-      font-size: 14px;
+      font-size: 16px;
     }
 
     .blog__info {
