@@ -285,7 +285,7 @@ p {
     flex-flow: column wrap;
 }
 .blog__title {
-    margin-top: 100px;
+    margin-top: 50px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     color: #fff;
