@@ -17,12 +17,6 @@
     background: #939393;
 }
 
-@-ms-viewport { width: 1000; }
-    @-webkit-viewport { width: 1000; }
-    @-moz-viewport { width: 1000; }
-    @-o-viewport { width: 1000; }
-    @viewport { width: 1000; }
-
 body {
     margin: 0;
 
